@@ -1,3 +1,43 @@
 Goedemorgen
 Dit is een test
 
+J'écris les commandes faites à l'exercice 2 ici (et je l'ajouterai sur gituhub à la fin juste pour garder une trace de ce que j'ai fait)
+
+1.
+2. On close le répertoire
+git clone https://github.com/Polytech-OPI-2021-2022/TP2_dupuis
+On a cloné dans le répertoire'TP2_dupuis'
+3. cd TP2_dupuis
+git status 
+Sur la branche main
+Votre branche est à jour avec 'origin/main'.
+rien à valider, la copie de travail est propre
+(donc on fera le push avec main)
+4. Pour créer le fichier j'ai utilisé 
+cat > alonsocaroline.txt 
+(on aurait pu utilisé par exemple touch ou gedit puis enregistrer)
+5. 
+git add alonsocaroline.txt
+git commit -m"ex2"
+(git status)
+git remote set-url origin https://github.com/Polytech-OPI-2021-2022/TP2_dupuis
+git push -u origin main (avec le bon login et le token)
+6. 
+Le fichier est bien dans la branche du main
+7. 
+git pull
+Déjà à jour.
+8. 
+Fait
+9.
+Fait (là j'ai pas de voisin)
+10. 
+git add alonsocaroline.txt
+git commit -m"ex2"
+git push
+11. Si on le ferait avec son voisin on aurait un conflit du au fait qu'on veuille "pusher" en même temps en ayant modifier la même ligne (conflit de merge)
+12.
+Git ne peut pas déterminer automatiquement la version correcte, il marquerait le fichier comme étant en conflit (arrêterait le processus de merge), donc c'est à nous de résoudre le conflit en choississant les modifications qu'on veut garder.
+13. git lola et git lop
+gitg (visuellement c'est mieux)
+On voit l'historique des changements
