@@ -1,0 +1,8 @@
+#include "human_simulation.h"
+
+int main(void)
+{
+	brain Michael_Baudeur_Brain = {.QI = 0,
+									.gray_matter_in_miligrams = 10};
+	simulate(Michael_Baudeur_Brain);
+}
