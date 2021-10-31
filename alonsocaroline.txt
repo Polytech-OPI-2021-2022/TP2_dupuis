@@ -4,7 +4,7 @@ Dit is een test
 J'écris les commandes faites à l'exercice 2 ici (et je l'ajouterai sur gituhub à la fin juste pour garder une trace de ce que j'ai fait)
 
 1.
-2. On close le répertoire
+2. On clone le répertoire
 git clone https://github.com/Polytech-OPI-2021-2022/TP2_dupuis
 On a cloné dans le répertoire'TP2_dupuis'
 3. cd TP2_dupuis
